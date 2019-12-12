@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User signup" time="171.163" tests="1" failures="0" errors="0">
+   <testsuite name="User signup" tests="1" failures="0" errors="0" time="171.163" timestamp="2019-12-12 12:17:20" hostname="DELL - DESKTOP-B0ER32R" id="Test Suites/User signup">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\git\\PHP-Travel-UI-Test\\Reports\\20191212_121709\\User signup\\20191212_121709"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\git\\PHP-Travel-UI-Test\\Reports\\20191212_121709\\User signup\\20191212_121709\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - DESKTOP-B0ER32R"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.1.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="169.254.140.212"/>
+         <property name="sessionId" value="2180fecf1d80a5627e95c09d06b3123e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Signup" time="169.238" classname="Test Cases/User Signup" status="PASSED">
+         <system-out><![CDATA[2019-12-12 12:17:21 - [TEST_CASE][PASSED] - Test Cases/User Signup: Test Cases/User Signup
+
+2019-12-12 12:17:21 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/index.php"): Browser is opened with url: 'https://www.phptravels.net/index.php'
+
+2019-12-12 12:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-12 12:17:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-12 12:19:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/index.php'
+
+2019-12-12 12:19:40 - [TEST_STEP][PASSED] - click(findTestObject("User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_My Account")): Object: 'Object Repository/User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_My Account' is clicked on
+
+2019-12-12 12:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_My Account' is clicked on
+
+2019-12-12 12:19:55 - [TEST_STEP][PASSED] - click(findTestObject("User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_Sign Up")): Object: 'Object Repository/User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_Sign Up' is clicked on
+
+2019-12-12 12:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_Sign Up' is clicked on
+
+2019-12-12 12:19:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_First Name_firstname"), "Manish"): Keys 'Manish' sent to object: 'Object Repository/User Signup/Page_Register/input_First Name_firstname'
+
+2019-12-12 12:19:58 - [MESSAGE][PASSED] - Keys 'Manish' sent to object: 'Object Repository/User Signup/Page_Register/input_First Name_firstname'
+
+2019-12-12 12:19:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_Last Name_lastname"), "Khadka"): Keys 'Khadka' sent to object: 'Object Repository/User Signup/Page_Register/input_Last Name_lastname'
+
+2019-12-12 12:19:59 - [MESSAGE][PASSED] - Keys 'Khadka' sent to object: 'Object Repository/User Signup/Page_Register/input_Last Name_lastname'
+
+2019-12-12 12:19:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_Mobile Number_phone"), "9848505146"): Keys '9848505146' sent to object: 'Object Repository/User Signup/Page_Register/input_Mobile Number_phone'
+
+2019-12-12 12:20:08 - [MESSAGE][PASSED] - Keys '9848505146' sent to object: 'Object Repository/User Signup/Page_Register/input_Mobile Number_phone'
+
+2019-12-12 12:20:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_Email_email"), "manishkhadk362@gmail.com"): Keys 'manishkhadk362@gmail.com' sent to object: 'Object Repository/User Signup/Page_Register/input_Email_email'
+
+2019-12-12 12:20:08 - [MESSAGE][PASSED] - Keys 'manishkhadk362@gmail.com' sent to object: 'Object Repository/User Signup/Page_Register/input_Email_email'
+
+2019-12-12 12:20:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_Password_password"), "QAManish"): Keys 'QAManish' sent to object: 'Object Repository/User Signup/Page_Register/input_Password_password'
+
+2019-12-12 12:20:09 - [MESSAGE][PASSED] - Keys 'QAManish' sent to object: 'Object Repository/User Signup/Page_Register/input_Password_password'
+
+2019-12-12 12:20:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("User Signup/Page_Register/input_Confirm Password_confirmpassword"), "QAManish"): Keys 'QAManish' sent to object: 'Object Repository/User Signup/Page_Register/input_Confirm Password_confirmpassword'
+
+2019-12-12 12:20:09 - [MESSAGE][PASSED] - Keys 'QAManish' sent to object: 'Object Repository/User Signup/Page_Register/input_Confirm Password_confirmpassword'
+
+2019-12-12 12:20:09 - [TEST_STEP][PASSED] - click(findTestObject("User Signup/Page_Register/button_Sign Up")): Object: 'Object Repository/User Signup/Page_Register/button_Sign Up' is clicked on
+
+2019-12-12 12:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/User Signup/Page_Register/button_Sign Up' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-12 12:17:20 - [TEST_SUITE][PASSED] - User signup: Test Cases/User Signup]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

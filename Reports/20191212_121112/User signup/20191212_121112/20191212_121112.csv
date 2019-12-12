@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User signup,,,,2019-12-12 12:11:22,2019-12-12 12:11:24,1.555s,FAILED
+,,,,,,,
+Test Cases/User Signup,,,,2019-12-12 12:11:22,2019-12-12 12:11:24,1.342s,FAILED
+"openBrowser(""https://www.phptravels.net/index.php"")",,,,2019-12-12 12:11:23,2019-12-12 12:11:24,1.078s,FAILED

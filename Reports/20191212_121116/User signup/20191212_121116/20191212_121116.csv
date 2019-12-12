@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User signup,Chrome 78.0.3904.108,,,2019-12-12 12:11:28,2019-12-12 12:14:58,3m - 29.757s,FAILED
+,,,,,,,
+Test Cases/User Signup,Chrome 78.0.3904.108,,,2019-12-12 12:11:28,2019-12-12 12:14:58,3m - 29.491s,FAILED
+"openBrowser(""https://www.phptravels.net/index.php"")",Chrome 78.0.3904.108,,,2019-12-12 12:11:29,2019-12-12 12:14:22,2m - 53.717s,PASSED
+"click(findTestObject(""User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_My Account""))",Chrome 78.0.3904.108,,,2019-12-12 12:14:22,2019-12-12 12:14:23,0.692s,PASSED
+"click(findTestObject(""User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_Sign Up""))",Chrome 78.0.3904.108,,,2019-12-12 12:14:23,2019-12-12 12:14:24,0.996s,PASSED
+"sendKeys(findTestObject(""User Signup/Page_Register/input_First Name_firstname""), ""Manish"")",Chrome 78.0.3904.108,,,2019-12-12 12:14:24,2019-12-12 12:14:58,33.779s,FAILED

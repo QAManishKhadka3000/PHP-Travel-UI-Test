@@ -16,19 +16,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.phptravels.net/index.php')
-
-WebUI.click(findTestObject('Object Repository/User Signup/Page_PHPTRAVELS  Travel Technology Partner/a_My Account'))
-
-WebUI.click(findTestObject('Object Repository/User Login/Page_PHPTRAVELS  Travel Technology Partner/a_Login'))
-
-WebUI.sendKeys(findTestObject('Object Repository/User Login/Page_Login/input_Email_username'), 'manishkhadk362@gmail.com')
-
-WebUI.sendKeys(findTestObject('Object Repository/User Login/Page_Login/input_Password_password'), 'Moonish362')
-
-WebUI.click(findTestObject('Object Repository/User Login/Page_Login/label_Remember Me'))
-
-WebUI.click(findTestObject('Object Repository/User Login/Page_Login/button_Login'))
-
-WebUI.getText(findTestObject('Object Repository/Page_My Account/h3_Hi Manish Khadka'))
+WebUI.callTestCase(findTestCase('User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
